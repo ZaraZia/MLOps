@@ -1,7 +1,7 @@
 # test_calculator.py
 
 import pytest
-from calculator import add, subtract
+from functions import add, subtract
 
 def test_add():
     assert add(1, 2) == 3
