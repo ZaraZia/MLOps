@@ -5,7 +5,7 @@ CLASS_FILE = functions.py
 TEST_FILE = test.py
 
 install:
-	pip install pytest
+	pip install -r requirements.txt
 
 test:
 	@$(PYTHON3) $(TEST_FILE)
